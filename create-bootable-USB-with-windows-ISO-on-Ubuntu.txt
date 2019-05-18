@@ -1,0 +1,11 @@
+1. add repo and install woeusb
+sudo add-apt-repository ppa:nilarimogard/webupd8 
+sudo apt update  
+sudo apt install woeusb
+
+2. Plug in your USB stick which you want to use (if not already)
+3. Start Gparted and chose that USB
+4. Unmount the USB-disk with gparted
+5. Format it by choosing "clear" and confirm
+6. Now open woeusb and choose the windows ISO image and that USB and click Install
+7. You're done
